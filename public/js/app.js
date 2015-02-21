@@ -131,14 +131,7 @@ $("#nav_interstellar_travel").click(function (event) {
     $(".pluto").click( function () {
       $(".pluto").append('<img class="attack" src="images/plutAtk.gif">');
     });
-
-
 });
-
-
-
-
-
 
 $(".everything div, header").click(function () {
   var random_bg_color = Math.floor( Math.random()*0xFFFFFF );

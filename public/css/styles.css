@@ -3006,11 +3006,14 @@ th.hide-for-touch {
 
 body {
   text-align: left;
-  color: black; }
+  color: black;
+  padding: 30px; }
+  body .everything {
+    border: solid black 4px; }
 
 header {
   padding: 30px;
-  border: solid black 4px;
+  border-bottom: solid black 4px;
   text-align: center; }
   header nav {
     text-align: center;
@@ -3048,10 +3051,10 @@ img {
   width: 300px; }
 
 .scouts {
-  padding-left: 30px;
-  width: 100%;
-  background-color: transparent;
-  display: inline-block; }
+  border-top: solid black 4px;
+  width: 100%; }
+  .scouts div {
+    padding: 50px; }
   .scouts .attack {
     height: 60%;
     width: 70%;

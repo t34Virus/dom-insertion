@@ -9,12 +9,16 @@ $dark-color : #333333;
 body {
   text-align: left;
   color: black;
-
+  padding: 30px;
+  .everything {
+    border: solid black 4px;
+  }
+  
 }
 
 header{  
   padding: 30px;
-  border: solid black 4px;
+  border-bottom: solid black 4px;
   text-align: center;
   nav {
     text-align: center;
@@ -62,10 +66,11 @@ img {
 }
 
 .scouts {
-  padding-left: 30px;
+  div {
+    padding: 50px;
+  }
+  border-top: solid black 4px;
   width: 100%;
-  background-color: transparent;
-  display: inline-block;
   .attack{
   height: 60%;
   width: 70%;
