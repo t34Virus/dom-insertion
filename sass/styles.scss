@@ -1,11 +1,110 @@
 @import "partials/settings";
 @import "partials/foundation";
 
+
 $dark-color : #333333;
 
-h1 {
+
+
+body {
+  text-align: left;
+  color: black;
+
+}
+
+header{  
+  padding: 30px;
+  border: solid black 4px;
+  text-align: center;
+  nav {
+    text-align: center;
+  display: inline-block;
+
+   li {
+    display: inline;
+    }
+  }
+  img{
+    height: 200px; 
+    width: 200px;
+  }
+}
+  .h1_img{
+     border: none;
+    .attack {
+      float: right;
+      height: 60%;
+      width: 700px;
+      transform: scaleX(-1);
+    }
+  }
+
+button {
+  text-align: center;
+  border-radius: 10px;
+  background-color: transparent;
   color: black;
 }
-body {
-  background: $dark-color;
+
+img {
+  height: 100px; 
+  width: 100px;
 }
+
+ .ww img{
+  height: 200px;
+  width: 150px;
+}
+
+ .flyingWW img{
+  height: 300px;
+  width: 300px;
+}
+
+.scouts {
+  padding-left: 30px;
+  width: 100%;
+  background-color: transparent;
+  display: inline-block;
+  .attack{
+  height: 60%;
+  width: 70%;
+  transform: scaleX(-1);
+  }
+  .venus {
+    .attack {
+      padding-right: 30px;
+      height: 100px;
+      width: 130px;
+    }
+  }
+}
+
+.pends {
+  overflow: hidden;
+  .append h1 {
+    text-align: left;
+  }
+  .prepend {
+  text-align: right;
+
+  }
+}
+
+.pendTos {
+  .appendTo h2{
+    text-align: left;
+  }
+  .prependTo {
+  text-align: right;
+  }
+}
+
+.texTML {
+  text-align: center;
+  p{
+    display: none;
+  }
+}
+
+

@@ -4,17 +4,128 @@
   <meta charset="UTF-8">
   <title>insertion</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/hover.css" media="all">
+
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-<body>
-<h1>hey!</h1>
+
+<div class="everything show-for-large-only">
+<header>
+  <a name="start"></a>
+    <h1>        
+      <div class="h1_img"></div>
+      <img class="cute-nept" src="images/superCuteNeptune.png" alt="">
+      DOM Insertion, Inside
+    </h1>
   
- <script src="/bower_components/modernizr/modernizr.js"></script>
+  <button class="remove_div">Yea yea</button>
+  <button class="recover_div">oh NO</button>  
+  <nav class="Jump to spots">
+        
+
+    <ul>
+      <li><a href="#append">.append()</a></li>
+      <li><a href="#prepend">.prepend()</a></li>
+      <li><a href="#appendTo">.appendTo()</a></li>
+      <li><a href="#prependTo">prependTo()</a></li>
+      <li><a href="#textQ">.text()</a></li>
+      <li><a href="#html">.html()</a></li>      
+      <li><a href="#scouts">.scouts</a></li>
+    </ul>
+  </nav>
+</header>
+<body>
+  <div class="pends">
+    <div class="append">
+      <a name="append"></a>
+
+      <a href="#start"><h1>.append()</h1></a>
+      <button class="ww"><img src="images/wwGIF.gif" alt="">
+      </button>
+      <ul class="append-ul"></ul>
+    </div>  
+   
+
+    <div class="prepend">
+      <a name="prepend"></a>
+      <a href="#start"><h1>.prepend()</h1></a>
+      <button class="quinn2"><img src="images/harley.gif"></button>
+    </div>
+    
+  </div>
+
+  <div class="pendTos">
+    <div class="appendTo">
+      <a name="appendTo"></a>
+      <a href="#start"><h2>.appendTo()</h2></a>  
+      <button class="flyingWW"><img src="images/smperv.gif" alt=""></button>
+      <ul class="appendTo-ul"></ul>
+    </div>  
+    
+    <div class="prependTo">
+      <a name="prependTo"></a>
+      <a href="#start"><h2>.prependTo()</h2></a>
+      <button class="quinn3"><img src="images/harley.gif"></button>
+    </div>
+   
+  </div>
+
+  <div class="texTML">
+    <div class="textQ">
+    <a name="textQ"></a>
+    <a href="#start"><h1>.text()</h1></a>
+    <p>he said she said i said</p>
+    <button class="quinn4"><img src="images/harley.gif"></button>
+    </div>
+    
+
+    <div class="html">
+      <a name="html"></a>
+      <a href="#start"><h1>.html()</h1></a>
+      <button class="quinn5"><img src="images/harley.gif"></button>
+    </div>
+
+  </div>    
+  <a name="scouts"></a> 
+  <div class="scouts">
+    <div class="moon"><img src="images/moon.gif" alt=""></div>
+    <div class="mars"><img src="images/mars.gif" alt=""></div>
+    <div class="mercury"><img src="images/merc.gif" alt=""></div>
+    <div class="jupiter"><img src="images/jupi.gif" alt=""></div>
+    <div class="venus"><img src="images/venus.gif" alt=""></div>
+    <div class="saturn"><img src="images/sat.gif" alt=""></div>
+    <div class="uranus"><img src="images/urs.gif" alt=""></div>
+    <div class="pluto"><img src="images/plut.gif" alt=""></div>   
+    <a href="#start">back to top</a>
+  </div>  
+</div>
+
+  <!-- presentation demo -->
+  <div class="demo show-for-medium-only">
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <ol>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+    </ol>
+
+    <button id="btn1">Append text</button>
+    <button id="btn2">Append list item</button>
+
+  </div>
+<!-- end of demo -->
+
+  <script src="/bower_components/modernizr/modernizr.js"></script>
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
- <script src="/bower_components/foundation/js/foundation.min.js"></script>
- <script>
+  <script src="/bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/app-demo.js"></script>
+
+  <script>
    $(document).foundation();
- </script>
+  </script>
 </body>
 
 </html>
