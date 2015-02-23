@@ -112,4 +112,24 @@ img {
   }
 }
 
+.demo {
+  .pre-append-demo {
+    p {
+      color: red;
+    }
+    ol {
+      color: green;
+    }
+    .pre-append-buttons {
+      button{
+        color: orange; 
+      }
+    }
+    .pre-appendTo-buttons {
+      button{
+        color: purple;
+      }
+    }
+  }
+}
 

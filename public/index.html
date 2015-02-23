@@ -5,8 +5,7 @@
   <title>insertion</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/hover.css" media="all">
-
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <div class="everything show-for-large-only">
@@ -15,11 +14,9 @@
     <h1>        
       <div class="h1_img"></div>
       <img class="cute-nept" src="images/superCuteNeptune.png" alt="">
-      DOM Insertion, Inside
+      DOM Dom dom Insertion, Inside
     </h1>
-  
-  <button class="remove_div">Yea yea</button>
-  <button class="recover_div">oh NO</button>  
+
   <nav class="Jump to spots">
         
 
@@ -104,7 +101,8 @@
 </div>
 
   <!-- presentation demo -->
-  <div class="demo show-for-medium-only">
+<div class="demo show-for-medium-only">
+  <div class="pre-append-demo">
     <p>This is a paragraph.</p>
     <p>This is another paragraph.</p>
 
@@ -113,16 +111,25 @@
       <li>List item 2</li>
       <li>List item 3</li>
     </ol>
-
-    <button id="btn1">Append text</button>
-    <button id="btn2">Append list item</button>
-
+    
+    <div class="pre-append-buttons">
+      <button class="appendText">Appended text</button>
+      <button class="appendItem">Appended list item</button>
+      <button class="prependText">Prepended text</button>
+      <button class="prependItem">Prepended list item</button>
+    </div>
+    <div class="pre-appendTo-buttons">
+      <button class="appendToText">AppendTo text</button>
+      <button class="appendToItem">AppendTo list item</button>
+      <button class="prependToText">PrependTo text</button>
+      <button class="prependToItem">PrependTo list item</button>
+    </div>   
   </div>
-<!-- end of demo -->
-
+</div><!-- end of demo -->
   <script src="/bower_components/modernizr/modernizr.js"></script>
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="/bower_components/foundation/js/foundation.min.js"></script>
+  <script src="index-demo.html"></script>
   <script src="js/app.js"></script>
   <script src="js/app-demo.js"></script>
 

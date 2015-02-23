@@ -3080,3 +3080,12 @@ img {
   text-align: center; }
   .texTML p {
     display: none; }
+
+.demo .pre-append-demo p {
+  color: red; }
+.demo .pre-append-demo ol {
+  color: green; }
+.demo .pre-append-demo .pre-append-buttons button {
+  color: orange; }
+.demo .pre-append-demo .pre-appendTo-buttons button {
+  color: purple; }

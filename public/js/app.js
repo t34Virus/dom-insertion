@@ -85,6 +85,7 @@ $("#nav_interstellar_travel").click(function (event) {
       $( this ).text( $( this ).html() );
     });
 
+
     $(".quinn4").click(function() {
       var ptext = $(".textQ p").text( );
       $(".textQ h1").text(ptext);
