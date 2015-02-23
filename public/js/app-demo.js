@@ -9,7 +9,7 @@ $(function() {
     });
   
     $(".appendItem").click(function(){
-        $("ol").append("<li>Appended item</li>");
+        $("ol").append("<li><b>Appended item</b></li>");
     });
 
     $(".appendToText").click(function(){
@@ -17,25 +17,25 @@ $(function() {
     });
   
     $(".appendToItem").click(function(){
-        $("<li>AppendTo item</li>").appendTo("ol");
+        $("<li><b>AppendTo item</b></li>").appendTo("ol");
     });
         
     //PREPENDS
     
     // $(".prependText").click(function(){
-    //   $("p").prepend("<b> prepended text.</b>.");
+    //   $("p").prepend("<b> prepended text</b>.");
     // });
   
     // $(".prependItem").click(function(){
-    //   $("ol").prepend("<li>prepended item</li>");
+    //   $("ol").prepend("<li><b>prepended item</b></li>");
     // });
 
     // $(".prependToText").click(function(){
-    //   $("<b> prependTo text.</b>.").prependTo("p");
+    //   $("<b> prependTo text</b>.").prependTo("p");
     // });
   
     // $(".prependToItem").click(function(){
-    //   $("<li>prependTo item</li>").prependTo("ol");
+    //   $("<li><b>prependTo item</b></li>").prependTo("ol");
     // });
   
 });

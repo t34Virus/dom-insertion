@@ -3082,10 +3082,6 @@ img {
     display: none; }
 
 .demo .pre-append-demo p {
-  color: red; }
+  color: blue; }
 .demo .pre-append-demo ol {
-  color: green; }
-.demo .pre-append-demo .pre-append-buttons button {
-  color: orange; }
-.demo .pre-append-demo .pre-appendTo-buttons button {
-  color: purple; }
+  color: turquoise; }

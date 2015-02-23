@@ -134,7 +134,7 @@ $("#nav_interstellar_travel").click(function (event) {
     });
 });
 
-$(".everything div, header").click(function () {
+$(".everything div, header, .demo button").click(function () {
   var random_bg_color = Math.floor( Math.random()*0xFFFFFF );
   var random_r = Math.floor( Math.random()*256 );
   var random_g = Math.floor( Math.random()*256 );
