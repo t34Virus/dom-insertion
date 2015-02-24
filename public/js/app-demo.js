@@ -22,21 +22,21 @@ $(function() {
         
     //PREPENDS
     
-    // $(".prependText").click(function(){
-    //   $("p").prepend("<b> prepended text</b>.");
-    // });
+    $(".prependText").click(function(){
+      $("p").prepend("<b> prepended text</b>.");
+    });
   
-    // $(".prependItem").click(function(){
-    //   $("ol").prepend("<li><b>prepended item</b></li>");
-    // });
+    $(".prependItem").click(function(){
+      $("ol").prepend("<li><b>prepended item</b></li>");
+    });
 
-    // $(".prependToText").click(function(){
-    //   $("<b> prependTo text</b>.").prependTo("p");
-    // });
+    $(".prependToText").click(function(){
+      $("<b> prependTo text</b>.").prependTo("p");
+    });
   
-    // $(".prependToItem").click(function(){
-    //   $("<li><b>prependTo item</b></li>").prependTo("ol");
-    // });
+    $(".prependToItem").click(function(){
+      $("<li><b>prependTo item</b></li>").prependTo("ol");
+    });
   
 });
 
